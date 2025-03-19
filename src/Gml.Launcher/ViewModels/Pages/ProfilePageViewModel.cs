@@ -15,12 +15,36 @@ using System.IO;
 
 namespace Gml.Launcher.ViewModels.Pages
 {
+<<<<<<< HEAD
     public class ProfilePageViewModel : PageViewModelBase
+=======
+    private readonly IGmlClientManager _manager;
+
+    [Reactive] public string TextureUrl { get; set; }
+    [Reactive] public IUser User { get; set; }
+
+    // Новые свойства
+    [Reactive] public string CpuInfo { get; set; }
+    [Reactive] public string GpuInfo { get; set; }
+    [Reactive] public string RamInfo { get; set; }
+
+    internal ProfilePageViewModel(
+        IScreen screen,
+        IUser user,
+        IGmlClientManager manager,
+        ILocalizationService? localizationService = null) : base(screen, localizationService)
+>>>>>>> c66d7b3977941a333c537ae9df88194e58d1b715
     {
         private readonly IGmlClientManager _manager;
 
+<<<<<<< HEAD
         [Reactive] public string TextureUrl { get; set; }
         [Reactive] public IUser User { get; set; }
+=======
+        RxApp.MainThreadScheduler.Schedule(LoadData);
+        LoadHardwareInfo(); // Загрузка характеристик ПК
+    }
+>>>>>>> c66d7b3977941a333c537ae9df88194e58d1b715
 
         // Новые свойства для характеристик ПК
         [Reactive] public string CpuInfo { get; set; }
@@ -198,4 +222,69 @@ namespace Gml.Launcher.ViewModels.Pages
             };
         }
     }
+<<<<<<< HEAD
+=======
+
+    private void LoadHardwareInfo()
+{
+    try
+    {
+        // CPU
+        using (var searcher = new ManagementObjectSearcher("select * from Win32_Processor"))
+        {
+            foreach (var item in searcher.Get())
+            {
+                CpuInfo = $"ЦП: {item["Name"]}\n" +
+                          $"    Ядер: {item["NumberOfCores"]}\n" +
+                          $"    Потоков: {item["ThreadCount"]}";
+                break;
+            }
+        }
+
+        // GPU (ищем первую дискретную, если нет - берём любую)
+        using (var searcher = new ManagementObjectSearcher("select * from Win32_VideoController"))
+        {
+            string? discreteGpu = null;
+            string? integratedGpu = null;
+
+            foreach (var item in searcher.Get())
+            {
+                string gpuName = item["Name"].ToString();
+                double gpuMemory = Convert.ToDouble(item["AdapterRAM"]) / 1024 / 1024 / 1024;
+
+                if (gpuMemory > 0) // Игнорируем виртуальные GPU
+                {
+                    if (gpuName.Contains("NVIDIA") || gpuName.Contains("AMD") || gpuName.Contains("GeForce") || gpuName.Contains("Radeon"))
+                    {
+                        discreteGpu = $"Видеокарта: {gpuName}\n    Память: {Math.Round(gpuMemory)} ГБ";
+                        break; // Нашли дискретную, можно выходить
+                    }
+
+                    if (integratedGpu == null)
+                    {
+                        integratedGpu = $"Видеокарта: {gpuName}\n    Память: {Math.Round(gpuMemory)} ГБ";
+                    }
+                }
+            }
+
+            GpuInfo = discreteGpu ?? integratedGpu ?? "Видеокарта: Не найдена";
+        }
+
+        // RAM (округляем до целого числа)
+        using (var searcher = new ManagementObjectSearcher("select * from Win32_ComputerSystem"))
+        {
+            foreach (var item in searcher.Get())
+            {
+                RamInfo = $"RAM: {Math.Round(Convert.ToDouble(item["TotalPhysicalMemory"]) / 1024 / 1024 / 1024)} ГБ";
+                break;
+            }
+        }
+    }
+    catch (Exception e)
+    {
+        Debug.WriteLine($"Ошибка получения информации о системе: {e.Message}");
+    }
+}
+
+>>>>>>> c66d7b3977941a333c537ae9df88194e58d1b715
 }

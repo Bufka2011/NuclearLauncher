@@ -62,6 +62,7 @@
                 <!-- Правая часть - Характеристики ПК -->
                 <Border Grid.Row="2"
                         Grid.Column="2"
+<<<<<<< HEAD
                         Padding="15"
                         Background="rgb(17, 17, 17)"
                         CornerRadius="20"
@@ -69,6 +70,14 @@
                         BorderThickness="1"
                         Margin="20,0,200,100">
 
+=======
+                        Padding="10"
+                        Background="rgb(17, 17, 17)"
+                        CornerRadius="20"
+                        BorderBrush="#444"
+                        BorderThickness="1"
+                        Margin="20,0,200,100">
+>>>>>>> c66d7b3977941a333c537ae9df88194e58d1b715
                     <StackPanel Margin="10">
                         <TextBlock Text="Характеристики ПК"
                                    FontSize="18"
@@ -76,26 +85,36 @@
                                    Margin="0,0,0,10"
                                    Foreground="White"/>
 
+<<<<<<< HEAD
                         <!-- CPU -->
+=======
+>>>>>>> c66d7b3977941a333c537ae9df88194e58d1b715
                         <TextBlock Text="{Binding CpuInfo}"
                                    FontSize="14"
                                    TextWrapping="Wrap"
                                    Foreground="LightGray"
                                    Margin="0,5"/>
 
+<<<<<<< HEAD
                         <!-- GPU -->
+=======
+>>>>>>> c66d7b3977941a333c537ae9df88194e58d1b715
                         <TextBlock Text="{Binding GpuInfo}"
                                    FontSize="14"
                                    TextWrapping="Wrap"
                                    Foreground="LightGray"
                                    Margin="0,5"/>
 
+<<<<<<< HEAD
                         <!-- RAM -->
+=======
+>>>>>>> c66d7b3977941a333c537ae9df88194e58d1b715
                         <TextBlock Text="{Binding RamInfo}"
                                    FontSize="14"
                                    TextWrapping="Wrap"
                                    Foreground="LightGray"
                                    Margin="0,5"/>
+<<<<<<< HEAD
 
                         <!-- Диск -->
                         <TextBlock Text="{Binding DiskInfo}"
@@ -110,6 +129,8 @@
                                    TextWrapping="Wrap"
                                    Foreground="LightGray"
                                    Margin="0,5"/>
+=======
+>>>>>>> c66d7b3977941a333c537ae9df88194e58d1b715
                     </StackPanel>
                 </Border>
 
