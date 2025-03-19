@@ -1,0 +1,14 @@
+D:\NuclearLauncher\Launcher\v1.0.5\src\L1.Avalonia.Gif\bin\Debug\net8.0\L1.Avalonia.Gif.deps.json
+D:\NuclearLauncher\Launcher\v1.0.5\src\L1.Avalonia.Gif\bin\Debug\net8.0\L1.Avalonia.Gif.dll
+D:\NuclearLauncher\Launcher\v1.0.5\src\L1.Avalonia.Gif\bin\Debug\net8.0\L1.Avalonia.Gif.pdb
+D:\NuclearLauncher\Launcher\v1.0.5\src\L1.Avalonia.Gif\obj\Debug\net8.0\L1.Avalonia.Gif.csproj.AssemblyReference.cache
+D:\NuclearLauncher\Launcher\v1.0.5\src\L1.Avalonia.Gif\obj\Debug\net8.0\Avalonia\Resources.Inputs.cache
+D:\NuclearLauncher\Launcher\v1.0.5\src\L1.Avalonia.Gif\obj\Debug\net8.0\L1.Avalonia.Gif.GeneratedMSBuildEditorConfig.editorconfig
+D:\NuclearLauncher\Launcher\v1.0.5\src\L1.Avalonia.Gif\obj\Debug\net8.0\L1.Avalonia.Gif.AssemblyInfoInputs.cache
+D:\NuclearLauncher\Launcher\v1.0.5\src\L1.Avalonia.Gif\obj\Debug\net8.0\L1.Avalonia.Gif.AssemblyInfo.cs
+D:\NuclearLauncher\Launcher\v1.0.5\src\L1.Avalonia.Gif\obj\Debug\net8.0\L1.Avalonia.Gif.csproj.CoreCompileInputs.cache
+D:\NuclearLauncher\Launcher\v1.0.5\src\L1.Avalonia.Gif\obj\Debug\net8.0\L1.Avalonia.Gif.sourcelink.json
+D:\NuclearLauncher\Launcher\v1.0.5\src\L1.Avalonia.Gif\obj\Debug\net8.0\L1.Avalonia.Gif.dll
+D:\NuclearLauncher\Launcher\v1.0.5\src\L1.Avalonia.Gif\obj\Debug\net8.0\refint\L1.Avalonia.Gif.dll
+D:\NuclearLauncher\Launcher\v1.0.5\src\L1.Avalonia.Gif\obj\Debug\net8.0\L1.Avalonia.Gif.pdb
+D:\NuclearLauncher\Launcher\v1.0.5\src\L1.Avalonia.Gif\obj\Debug\net8.0\ref\L1.Avalonia.Gif.dll

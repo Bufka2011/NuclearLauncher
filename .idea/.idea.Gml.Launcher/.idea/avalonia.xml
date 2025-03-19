@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="src/Gml.Launcher/App.axaml" value="src/Gml.Launcher/Gml.Launcher.csproj" />
+        <entry key="src/Gml.Launcher/Assets/Styles/Classes.axaml" value="src/Gml.Launcher/Gml.Launcher.csproj" />
+        <entry key="src/Gml.Launcher/Assets/Styles/Colors.axaml" value="src/Gml.Launcher/Gml.Launcher.csproj" />
+        <entry key="src/Gml.Launcher/Views/Components/BackgroundComponent.axaml" value="src/Gml.Launcher/Gml.Launcher.csproj" />
+        <entry key="src/Gml.Launcher/Views/Components/BadgeComponent.axaml" value="src/Gml.Launcher/Gml.Launcher.csproj" />
+        <entry key="src/Gml.Launcher/Views/Components/GmlButton.axaml" value="src/Gml.Launcher/Gml.Launcher.csproj" />
+        <entry key="src/Gml.Launcher/Views/Components/LoadingControl.axaml" value="src/Gml.Launcher/Gml.Launcher.csproj" />
+        <entry key="src/Gml.Launcher/Views/Components/LogoComponent.axaml" value="src/Gml.Launcher/Gml.Launcher.csproj" />
+        <entry key="src/Gml.Launcher/Views/Components/ProgressBar.axaml" value="src/Gml.Launcher/Gml.Launcher.csproj" />
+        <entry key="src/Gml.Launcher/Views/MainWindow.axaml" value="src/Gml.Launcher/Gml.Launcher.csproj" />
+        <entry key="src/Gml.Launcher/Views/Pages/OverviewPageView.axaml" value="src/Gml.Launcher/Gml.Launcher.csproj" />
+        <entry key="src/Gml.Launcher/Views/Pages/SettingsPageView.axaml" value="src/Gml.Launcher/Gml.Launcher.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

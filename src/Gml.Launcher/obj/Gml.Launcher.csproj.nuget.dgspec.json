@@ -1,0 +1,750 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Launcher\\Gml.Launcher.csproj": {}
+  },
+  "projects": {
+    "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\GamerVII.Notification.Avalonia\\GamerVII.Notification.Avalonia\\GamerVII.Notification.Avalonia.csproj": {
+      "version": "2.0.1",
+      "restore": {
+        "projectUniqueName": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\GamerVII.Notification.Avalonia\\GamerVII.Notification.Avalonia\\GamerVII.Notification.Avalonia.csproj",
+        "projectName": "GamerVII.Notification.Avalonia",
+        "projectPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\GamerVII.Notification.Avalonia\\GamerVII.Notification.Avalonia\\GamerVII.Notification.Avalonia.csproj",
+        "packagesPath": "C:\\Users\\bufka\\.nuget\\packages\\",
+        "outputPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\GamerVII.Notification.Avalonia\\GamerVII.Notification.Avalonia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bufka\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Avalonia.Svg.Skia": {
+              "target": "Package",
+              "version": "[11.2.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\bufka\\.dotnet\\sdk\\8.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Client\\Gml.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Client\\Gml.Client.csproj",
+        "projectName": "Gml.Client",
+        "projectPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Client\\Gml.Client.csproj",
+        "packagesPath": "C:\\Users\\bufka\\.nuget\\packages\\",
+        "outputPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bufka\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Core.Interfaces\\Gml.Core.Interfaces.csproj": {
+                "projectPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Core.Interfaces\\Gml.Core.Interfaces.csproj"
+              },
+              "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Web.Api.Domains\\Gml.Web.Api.Domains.csproj": {
+                "projectPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Web.Api.Domains\\Gml.Web.Api.Domains.csproj"
+              },
+              "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Web.Api.Dto\\Gml.Web.Api.Dto.csproj": {
+                "projectPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Web.Api.Dto\\Gml.Web.Api.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "DiscordRichPresence": {
+              "target": "Package",
+              "version": "[1.2.1.24, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Sentry": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\bufka\\.dotnet\\sdk\\8.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Core.Interfaces\\Gml.Core.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Core.Interfaces\\Gml.Core.Interfaces.csproj",
+        "projectName": "Gml.Core.Interfaces",
+        "projectPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Core.Interfaces\\Gml.Core.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\bufka\\.nuget\\packages\\",
+        "outputPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Core.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bufka\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Users\\bufka\\.dotnet\\sdk\\8.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Web.Api.Domains\\Gml.Web.Api.Domains.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Web.Api.Domains\\Gml.Web.Api.Domains.csproj",
+        "projectName": "Gml.Web.Api.Domains",
+        "projectPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Web.Api.Domains\\Gml.Web.Api.Domains.csproj",
+        "packagesPath": "C:\\Users\\bufka\\.nuget\\packages\\",
+        "outputPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Web.Api.Domains\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bufka\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Core.Interfaces\\Gml.Core.Interfaces.csproj": {
+                "projectPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Core.Interfaces\\Gml.Core.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Users\\bufka\\.dotnet\\sdk\\8.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Web.Api.Dto\\Gml.Web.Api.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Web.Api.Dto\\Gml.Web.Api.Dto.csproj",
+        "projectName": "Gml.Web.Api.Dto",
+        "projectPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Web.Api.Dto\\Gml.Web.Api.Dto.csproj",
+        "packagesPath": "C:\\Users\\bufka\\.nuget\\packages\\",
+        "outputPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Web.Api.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bufka\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Web.Api.Domains\\Gml.Web.Api.Domains.csproj": {
+                "projectPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Web.Api.Domains\\Gml.Web.Api.Domains.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\bufka\\.dotnet\\sdk\\8.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Launcher\\Gml.Launcher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Launcher\\Gml.Launcher.csproj",
+        "projectName": "Gml.Launcher",
+        "projectPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Launcher\\Gml.Launcher.csproj",
+        "packagesPath": "C:\\Users\\bufka\\.nuget\\packages\\",
+        "outputPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Launcher\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bufka\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\GamerVII.Notification.Avalonia\\GamerVII.Notification.Avalonia\\GamerVII.Notification.Avalonia.csproj": {
+                "projectPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\GamerVII.Notification.Avalonia\\GamerVII.Notification.Avalonia\\GamerVII.Notification.Avalonia.csproj"
+              },
+              "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Client\\Gml.Client.csproj": {
+                "projectPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\Gml.Client\\src\\Gml.Client\\Gml.Client.csproj"
+              },
+              "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\L1.Avalonia.Gif\\L1.Avalonia.Gif.csproj": {
+                "projectPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\L1.Avalonia.Gif\\L1.Avalonia.Gif.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AsyncImageLoader.Avalonia": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Avalonia.ReactiveUI": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Avalonia.Svg.Skia": {
+              "target": "Package",
+              "version": "[11.2.0.2, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Hardware.Info": {
+              "target": "Package",
+              "version": "[101.0.0, )"
+            },
+            "ReactiveUI.Fody": {
+              "target": "Package",
+              "version": "[19.5.41, )"
+            },
+            "Sentry": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "SixLabors.ImageSharp.Drawing": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-arm",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-arm64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-musl-arm64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-musl-x64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.osx-arm64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.osx-x64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-arm",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-arm64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-musl-arm64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-musl-x64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-arm",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-arm64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-musl-arm64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-musl-x64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.osx-arm64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.osx-x64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-arm64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x86",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+              "version": "[8.0.13, 8.0.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\bufka\\.dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-arm": {
+          "#import": []
+        },
+        "linux-arm64": {
+          "#import": []
+        },
+        "linux-musl-arm64": {
+          "#import": []
+        },
+        "linux-musl-x64": {
+          "#import": []
+        },
+        "linux-x64": {
+          "#import": []
+        },
+        "osx-arm64": {
+          "#import": []
+        },
+        "osx-x64": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\L1.Avalonia.Gif\\L1.Avalonia.Gif.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\L1.Avalonia.Gif\\L1.Avalonia.Gif.csproj",
+        "projectName": "L1.Avalonia.Gif",
+        "projectPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\L1.Avalonia.Gif\\L1.Avalonia.Gif.csproj",
+        "packagesPath": "C:\\Users\\bufka\\.nuget\\packages\\",
+        "outputPath": "D:\\NuclearLauncher\\Launcher\\v1.0.5\\src\\L1.Avalonia.Gif\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bufka\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\bufka\\.dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
