@@ -14,7 +14,6 @@
 
     <Grid>
         <!-- Background -->
-        <!-- <components:BackgroundComponent Grid.Column="0" /> -->
         <Border Padding="20">
             <Grid ColumnDefinitions="350, 30, 0.65*" RowDefinitions="Auto, 30, *">
 
@@ -28,16 +27,14 @@
                                           Command="{Binding GoBackCommand}" />
                 </Grid>
 
-
+                <!-- Левая часть - Профиль -->
                 <components:ProfileUserControl Grid.Row="2"
                                                Grid.Column="0"
                                                UserName="{Binding User.Name}"
                                                SkinUrl="{Binding TextureUrl, Converter={converters:NoiseStringAddConverter}}"
                                                VerticalAlignment="Top">
 
-
                     <components:ProfileInfoComponent />
-
 
                     <StackPanel Orientation="Horizontal"
                                 Spacing="15"
@@ -53,7 +50,6 @@
                         <components:GmlButton Classes="TextIcon Primary"
                                               Margin="0, 15, 0, 0"
                                               Padding="15, 10, 10, 10"
-
                                               Command="{Binding OpenLinkCommand}"
                                               CommandParameter="https://recloud.tech"
                                               IconSize="20"
@@ -62,6 +58,60 @@
                                               HorizontalAlignment="Center" />
                     </StackPanel>
                 </components:ProfileUserControl>
+
+                <!-- Правая часть - Характеристики ПК -->
+                <Border Grid.Row="2"
+                        Grid.Column="2"
+                        Padding="15"
+                        Background="rgb(17, 17, 17)"
+                        CornerRadius="20"
+                        BorderBrush="rgb(68, 68, 68)"
+                        BorderThickness="1"
+                        Margin="20,0,200,100">
+
+                    <StackPanel Margin="10">
+                        <TextBlock Text="Характеристики ПК"
+                                   FontSize="18"
+                                   FontWeight="Bold"
+                                   Margin="0,0,0,10"
+                                   Foreground="White"/>
+
+                        <!-- CPU -->
+                        <TextBlock Text="{Binding CpuInfo}"
+                                   FontSize="14"
+                                   TextWrapping="Wrap"
+                                   Foreground="LightGray"
+                                   Margin="0,5"/>
+
+                        <!-- GPU -->
+                        <TextBlock Text="{Binding GpuInfo}"
+                                   FontSize="14"
+                                   TextWrapping="Wrap"
+                                   Foreground="LightGray"
+                                   Margin="0,5"/>
+
+                        <!-- RAM -->
+                        <TextBlock Text="{Binding RamInfo}"
+                                   FontSize="14"
+                                   TextWrapping="Wrap"
+                                   Foreground="LightGray"
+                                   Margin="0,5"/>
+
+                        <!-- Диск -->
+                        <TextBlock Text="{Binding DiskInfo}"
+                                   FontSize="14"
+                                   TextWrapping="Wrap"
+                                   Foreground="LightGray"
+                                   Margin="0,5"/>
+
+                        <!-- Свободное место на диске C -->
+                        <TextBlock Text="{Binding FreeDiskSpace}"
+                                   FontSize="14"
+                                   TextWrapping="Wrap"
+                                   Foreground="LightGray"
+                                   Margin="0,5"/>
+                    </StackPanel>
+                </Border>
 
             </Grid>
         </Border>
