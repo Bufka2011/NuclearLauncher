@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("L1.Avalonia.Gif")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25d2ddd91e19e52878a3c56b3825d5ad6376b3f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+795ac8572f5c6bbb4a1953934d5e2be08ecf1cbf")]
 [assembly: System.Reflection.AssemblyProductAttribute("L1.Avalonia.Gif")]
 [assembly: System.Reflection.AssemblyTitleAttribute("L1.Avalonia.Gif")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
