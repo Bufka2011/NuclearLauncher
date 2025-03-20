@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Integrations\AzuriomAuthResult.cs">
+      <DependentUpon>AuthResult.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Integrations\UnicoreAuthResult.cs">
+      <DependentUpon>AuthResult.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gml.Core.Interfaces\Gml.Core.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
