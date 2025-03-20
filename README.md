@@ -1,6 +1,7 @@
 # ВСЕМ БУ!
 ## Этот лаунчер создан на основе Gml Launcher, созданный GamerVII, спасибо ему большое!
 ### https://github.com/Gml-Launcher/Gml.Launcher
+### [ЛИСТ ИДЕЙ](https://github.com/Bufka2011/NuclearLauncher/blob/main/TODO.md)
 
 #
 ![Frame 1](https://github.com/GamerVII-NET/minecraft-launcher/assets/111225722/e0a5035b-6898-4579-b8b5-0fcf1cd93ca6)
