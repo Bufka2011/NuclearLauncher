@@ -59,7 +59,7 @@
                     </StackPanel>
                 </components:ProfileUserControl>
 
-                <!-- Правая часть - Характеристики ПК -->
+                <!-- Правая часть - Характеристики ПК и скорость интернета -->
                 <Border Grid.Row="2"
                         Grid.Column="2"
                         Padding="15"
@@ -67,7 +67,7 @@
                         CornerRadius="20"
                         BorderBrush="rgb(68, 68, 68)"
                         BorderThickness="1"
-                        Margin="20,0,200,100">
+                        Margin="20,0,70,100">
 
                     <StackPanel Margin="10">
                         <TextBlock Text="Характеристики ПК"
@@ -110,6 +110,35 @@
                                    TextWrapping="Wrap"
                                    Foreground="LightGray"
                                    Margin="0,5"/>
+
+                        <!-- Результат проверки совместимости -->
+                        <TextBlock Text="{Binding CompatibilityMessage}"
+                                   Foreground="{Binding CompatibilityColor}"
+                                   FontSize="16"
+                                   FontWeight="Bold"
+                                   HorizontalAlignment="Center"
+                                   Margin="0,20,0,0"/>
+
+                        <!-- Скорость интернета -->
+                        <StackPanel Orientation="Horizontal"
+                                    Spacing="10"
+                                    HorizontalAlignment="Center"
+                                    Margin="0,20,0,0">
+                            <components:GmlButton Classes="TextIcon Primary"
+                                                  Padding="10"
+                                                  Text="Узнать скорость интернета"
+                                                  Command="{Binding CheckInternetSpeedCommand}"
+                                                  IsEnabled="{Binding !IsCheckingSpeed}" />
+                            <TextBlock Text="{Binding InternetSpeed}"
+                                       FontSize="14"
+                                       Foreground="LightGray"
+                                       VerticalAlignment="Center"/>
+                            <TextBlock Text="Проверка..."
+                                       FontSize="14"
+                                       Foreground="LightGray"
+                                       VerticalAlignment="Center"
+                                       IsVisible="{Binding IsCheckingSpeed}"/>
+                        </StackPanel>
                     </StackPanel>
                 </Border>
 
